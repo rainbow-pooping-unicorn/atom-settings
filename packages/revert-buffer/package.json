@@ -1,0 +1,174 @@
+{
+  "name": "revert-buffer",
+  "main": "./lib/revert-buffer",
+  "version": "0.5.0",
+  "description": "Revert a buffer to its on-disk contents",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atom/revert-buffer.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.39.0"
+  },
+  "dependencies": {
+    "fs-plus": "^2",
+    "temp": "0.6.0"
+  },
+  "readme": "## Revert Buffer package [![Build Status](https://travis-ci.org/atom/revert-buffer.svg?branch=master)](https://travis-ci.org/atom/revert-buffer)\n\nRevert a buffer to its on-disk contents\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/atom/revert-buffer/issues"
+  },
+  "homepage": "https://github.com/atom/revert-buffer#readme",
+  "_id": "revert-buffer@0.5.0",
+  "_shasum": "e89dd3965f372b787a15918a28c8ac4ac8f74476",
+  "_resolved": "file:../d-11608-1043-larmzb/package.tgz",
+  "_from": "../d-11608-1043-larmzb/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [
+      {
+        "name": "fs-plus",
+        "version": "2.8.1",
+        "path": "node_modules/fs-plus/lib/fs-plus.js"
+      },
+      {
+        "name": "async",
+        "version": "0.2.10",
+        "path": "node_modules/fs-plus/node_modules/async/lib/async.js"
+      },
+      {
+        "name": "mkdirp",
+        "version": "0.3.5",
+        "path": "node_modules/fs-plus/node_modules/mkdirp/index.js"
+      },
+      {
+        "name": "rimraf",
+        "version": "2.2.8",
+        "path": "node_modules/fs-plus/node_modules/rimraf/rimraf.js"
+      },
+      {
+        "name": "underscore-plus",
+        "version": "1.6.6",
+        "path": "node_modules/fs-plus/node_modules/underscore-plus/lib/underscore-plus.js"
+      },
+      {
+        "name": "underscore",
+        "version": "1.6.0",
+        "path": "node_modules/fs-plus/node_modules/underscore-plus/node_modules/underscore/underscore.js"
+      },
+      {
+        "name": "temp",
+        "version": "0.6.0",
+        "path": "node_modules/temp/lib/temp.js"
+      },
+      {
+        "name": "osenv",
+        "version": "0.0.3",
+        "path": "node_modules/temp/node_modules/osenv/osenv.js"
+      },
+      {
+        "name": "rimraf",
+        "version": "2.1.4",
+        "path": "node_modules/temp/node_modules/rimraf/rimraf.js"
+      },
+      {
+        "name": "graceful-fs",
+        "version": "1.2.3",
+        "path": "node_modules/temp/node_modules/rimraf/node_modules/graceful-fs/graceful-fs.js"
+      }
+    ],
+    "extensions": {
+      ".coffee": [
+        "lib/revert-buffer.coffee"
+      ],
+      ".js": [
+        "node_modules/fs-plus/lib/fs-plus.js",
+        "node_modules/fs-plus/node_modules/async/lib/async.js",
+        "node_modules/fs-plus/node_modules/mkdirp/examples/pow.js",
+        "node_modules/fs-plus/node_modules/mkdirp/index.js",
+        "node_modules/fs-plus/node_modules/rimraf/bin.js",
+        "node_modules/fs-plus/node_modules/rimraf/rimraf.js",
+        "node_modules/fs-plus/node_modules/underscore-plus/lib/underscore-plus.js",
+        "node_modules/fs-plus/node_modules/underscore-plus/node_modules/underscore/underscore-min.js",
+        "node_modules/fs-plus/node_modules/underscore-plus/node_modules/underscore/underscore.js",
+        "node_modules/temp/examples/grepcount.js",
+        "node_modules/temp/examples/pdfcreator.js",
+        "node_modules/temp/lib/temp.js",
+        "node_modules/temp/node_modules/osenv/osenv.js",
+        "node_modules/temp/node_modules/rimraf/node_modules/graceful-fs/graceful-fs.js",
+        "node_modules/temp/node_modules/rimraf/rimraf.js"
+      ],
+      ".json": [
+        "node_modules/fs-plus/node_modules/async/component.json",
+        "node_modules/fs-plus/node_modules/async/package.json",
+        "node_modules/fs-plus/node_modules/mkdirp/package.json",
+        "node_modules/fs-plus/node_modules/rimraf/package.json",
+        "node_modules/fs-plus/node_modules/underscore-plus/node_modules/underscore/package.json",
+        "node_modules/fs-plus/node_modules/underscore-plus/package.json",
+        "node_modules/fs-plus/package.json",
+        "node_modules/temp/node_modules/osenv/package.json",
+        "node_modules/temp/node_modules/rimraf/node_modules/graceful-fs/package.json",
+        "node_modules/temp/node_modules/rimraf/package.json",
+        "node_modules/temp/package.json",
+        "package.json"
+      ]
+    },
+    "folders": [
+      {
+        "paths": [
+          "lib",
+          "",
+          "spec"
+        ],
+        "dependencies": {
+          "fs-plus": "^2",
+          "temp": "0.6.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fs-plus/lib",
+          "node_modules/fs-plus"
+        ],
+        "dependencies": {
+          "underscore-plus": "1.x",
+          "mkdirp": "~0.3.5",
+          "rimraf": "~2.2.2",
+          "async": "~0.2.9"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/fs-plus/node_modules/underscore-plus/lib",
+          "node_modules/fs-plus/node_modules/underscore-plus"
+        ],
+        "dependencies": {
+          "underscore": "~1.6.0"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/temp/examples",
+          "node_modules/temp/lib",
+          "node_modules/temp",
+          "node_modules/temp/test"
+        ],
+        "dependencies": {
+          "rimraf": "~2.1.4",
+          "osenv": "0.0.3"
+        }
+      },
+      {
+        "paths": [
+          "node_modules/temp/node_modules/rimraf",
+          "node_modules/temp/node_modules/rimraf/test"
+        ],
+        "dependencies": {
+          "graceful-fs": "~1"
+        }
+      }
+    ]
+  }
+}

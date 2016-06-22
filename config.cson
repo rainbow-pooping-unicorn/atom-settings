@@ -1,0 +1,38 @@
+"*":
+  "autocomplete-plus": {}
+  "autohide-tree-view": {}
+  core:
+    automaticallyUpdate: false
+    disabledPackages: [
+      "css-color-underline"
+      "revert-buffer"
+      "color-picker"
+      "jslint"
+      "keybinding-cheatsheet"
+      "linter-csslint"
+      "minimap-find-and-replace"
+      "minimap-highlight-selected"
+    ]
+    openEmptyEditorOnStart: false
+    projectHome: "/Users/berit/git_projects"
+    themes: [
+      "seti-ui"
+      "an-old-hope-syntax"
+    ]
+  editor:
+    fontSize: 13
+    invisibles: {}
+  "exception-reporting":
+    userId: "13164650-1ba0-b218-1de9-c11df0b0c0c0"
+  "file-watcher":
+    promptWhenChange: true
+    promptWhenFileHasChangedOnDisk: false
+  linter:
+    showErrorPanel: false
+  "linter-sass-lint":
+    configPath: "/Users/berit/git_projects/sass-lint.yml"
+  "one-dark-ui": {}
+  "tree-view":
+    hideIgnoredNames: true
+  welcome:
+    showOnStartup: false
